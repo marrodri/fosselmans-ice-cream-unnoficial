@@ -4,7 +4,7 @@ import CustomImage from "@/components/customImage";
 export default function Landing() {
   //todo build the landing page.
   return (
-    <div>
+    <div className="text-black">
       <Banner height={"h-[600px] w-auto"}>
         <CustomImage
           opacity="opacity-50"
@@ -12,7 +12,7 @@ export default function Landing() {
             "https://lh3.googleusercontent.com/p/AF1QipNt3izAj_N3QXWs_cZChGjsOmhoqPr1Tp_s7_1n=s1360-w1360-h1020"
           }
         />
-        <div className="font-pismo text-[100px] absolute top-[300px] shadow-md px-[75px]">
+        <div className="font-pismo text-white text-[100px] absolute top-[300px] shadow-md px-[75px]">
           celebrating 100 years of serving ice cream
         </div>
       </Banner>

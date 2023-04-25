@@ -1,11 +1,43 @@
+import { ReactElement } from "react";
+import { FaInstagram, FaFacebookF } from "react-icons/Fa";
 export default function Footer() {
   //todo build the footer, this is hardcoded.
   return (
-    <div className="bg-black px-[50px] h-[100px] flex ">hi this is footer</div>
+    <div className="bg-black px-[50px] h-[50px] flex items-center justify-between ">
+      <div className="flex space-x-1">
+        <FooterButton
+          link={"https://www.facebook.com/FosselmansIceCream/"}
+          child={<FaFacebookF className="h-[20px] w-[20px] text-yellow-950" />}
+        />
+        <FooterButton
+          link={"https://www.instagram.com/fosselmansicecreamco/?hl=en"}
+          child={<FaInstagram className="h-[20px] w-[20px] text-yellow-950" />}
+        />
+      </div>
+      <div className="font-300">
+        Unnoficial Fosselmans Ice Cream. Alhambra, CA.
+      </div>
+    </div>
   );
 }
 
-//finish this
-//https://www.instagram.com/fosselmansicecreamco/?hl=en
-//https://www.instagram.com/fosselmansicecreamco/?hl=en
-function FooterButton() {}
+function FooterButton({
+  child,
+  link,
+}: {
+  child?: ReactElement | ReactElement[];
+  link: string;
+}) {
+  return (
+    <a
+      className="rounded-3xl"
+      href={link}
+      rel="noopener noreferrer"
+      target="_blank"
+    >
+      <div className="bg-white h-[35px] w-[35px] flex items-center justify-center rounded-3xl">
+        {child}
+      </div>
+    </a>
+  );
+}
