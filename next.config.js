@@ -8,6 +8,7 @@ const nextConfig = {
       "lh3.googleusercontent.com",
       "www.fosselmans.com",
       "d1ralsognjng37.cloudfront.net",
+      "drive.google.com",
     ],
     formats: ["image/webp"],
   },
@@ -16,3 +17,5 @@ const nextConfig = {
 module.exports = nextConfig;
 
 // lh3.googleusercontent.com
+
+

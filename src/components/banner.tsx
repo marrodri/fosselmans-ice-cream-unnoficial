@@ -7,7 +7,7 @@ import { ReactElement } from "react";
  */
 export default function Banner({
   height,
-  color = "bg-green-300",
+  color = "bg-gray-100",
   children,
 }: {
   height: string;

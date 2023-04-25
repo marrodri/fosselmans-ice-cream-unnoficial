@@ -15,11 +15,44 @@ export default function Location() {
           Location
         </div>
       </Banner>
-      <div className="h-[300px] bg-red-300">
-        <div>address Alhambra, CA</div>
-        <div>google map img</div>
-        {/* bring the layout from dtodo natural  page. */}
+      <div className="h-[500px] text-black bg-white pt-[25px]  justify-center flex space-x-5">
+        <div>
+          <div className="text-[50px] font-bold">Alhambra, CA</div>
+          <div className="text-[20px]">1824 W Main St, Alhambra, CA 91801</div>
+          <div className="text-[20px]">(323)-688-9012</div>
+          <div className="text-[24px] ">
+            Schedule:
+            <ul className="list-disc text-[20px]">
+              <li>
+                Monday thru friday
+                <ul>
+                  <li>7:30 am - 8 pm</li>
+                </ul>
+              </li>
+              <li>
+                Saturdays
+                <ul>
+                  <li>8:00 am - 8 pm</li>
+                </ul>
+              </li>
+              <li>
+                Sundays
+                <ul>
+                  <li>8:00 am - 6:30 pm</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div className="h-[400px] w-[500px] bg-green-200">
+          <CustomImage
+            imgUrl={
+              "https://drive.google.com/file/d/1Zg-qXqFL7xgry8LD-Hbb9cwXCrCyyqZO/view"
+            }
+          />
+        </div>
       </div>
     </div>
   );
 }
+

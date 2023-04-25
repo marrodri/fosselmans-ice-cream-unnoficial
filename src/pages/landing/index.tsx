@@ -19,7 +19,7 @@ export default function Landing() {
       <Banner height={"h-[600px] w-auto"}>
         <>
           Hi, about us(use black and white image one side, other side descri)
-          <div> 
+          <div>
             For over 100 years, Fosselman’s has delighted taste buds with a
             simple but powerful philosophy – we hand-make the most delicious ice
             cream by using only the finest ingredients. Quality, consistency,
