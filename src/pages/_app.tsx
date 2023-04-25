@@ -7,7 +7,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Unnoficial Fosselman's</title>
+        <title>Unnoficial Fosselman&apos;s</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Layout>

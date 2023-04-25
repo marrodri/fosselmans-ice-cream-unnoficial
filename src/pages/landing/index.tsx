@@ -13,8 +13,10 @@ export default function Landing() {
             "https://lh3.googleusercontent.com/p/AF1QipNt3izAj_N3QXWs_cZChGjsOmhoqPr1Tp_s7_1n=s1360-w1360-h1020"
           }
         />
-        <div className="font-pismo text-white text-[100px] absolute top-[300px] shadow-md px-[75px]">
-          celebrating 100 years of serving ice cream
+        <div className="font-pismo text-white text-[100px] absolute top-[300px]  px-[75px]">
+          <p className="pr-[250px] leading-[70px] text-sh">
+            celebrating 100 years of serving ice cream
+          </p>
         </div>
       </Banner>
       <Banner height={"h-auto w-auto"} color={"bg-black"}>
@@ -48,14 +50,13 @@ export default function Landing() {
             <div className="font-freestyle-script text-[48px]">
               Our Poular items
             </div>
-            <div>description about our items</div>
           </div>
           <div className="w-full flex   space-x-[10px] justify-center bg-blue-300">
             {/* <div className=" "> */}
-              <FoodItem name={"Ice Cream"} imgUrl={""} />
-              <FoodItem name={"Banana Splits"} imgUrl={""} />
-              <FoodItem name={"Ice Cream Sandwiches"} imgUrl={""} />
-              <FoodItem name={"Signature Cakes"} imgUrl={""} />
+            <FoodItem name={"Ice Cream"} imgUrl={""} />
+            <FoodItem name={"Banana Splits"} imgUrl={""} />
+            <FoodItem name={"Ice Cream Sandwiches"} imgUrl={""} />
+            <FoodItem name={"Signature Cakes"} imgUrl={""} />
             {/* </div> */}
           </div>
         </div>
