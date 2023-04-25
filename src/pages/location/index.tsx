@@ -50,7 +50,7 @@ export default function Location() {
             <CustomImage
               alt="google map location"
               imgUrl={
-                "https://drive.google.com/uc?export=view&id=1Zg-qXqFL7xgry8LD-Hbb9cwXCrCyyqZO"
+                "https://firebasestorage.googleapis.com/v0/b/dtodo-natural.appspot.com/o/fosselman-map.png?alt=media&token=863e19e5-eaa6-446f-abc2-47c8e9634103"
               }
             />
           </div>

@@ -8,7 +8,7 @@ const nextConfig = {
       "lh3.googleusercontent.com",
       "www.fosselmans.com",
       "d1ralsognjng37.cloudfront.net",
-      "drive.google.com",
+      "firebasestorage.googleapis.com",
       "scpr.brightspotcdn.com"
     ],
     formats: ["image/webp"],
