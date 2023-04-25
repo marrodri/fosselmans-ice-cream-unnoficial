@@ -1,3 +1,5 @@
+import CustomImage from "@/components/customImage";
+
 export default function FoodItem({
   name,
   imgUrl,
@@ -7,7 +9,10 @@ export default function FoodItem({
 }) {
   return (
     <div className="">
-      <div className="w-[320px] h-[200px] bg-gray-500">url</div>
+      <div className="w-[320px] h-[200px] bg-gray-500">
+
+        <CustomImage imgUrl={imgUrl}/>
+      </div>
       <div className="flex justify-center">{name}</div>
     </div>
   );

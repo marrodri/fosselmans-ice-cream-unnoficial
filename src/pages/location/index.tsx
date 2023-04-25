@@ -11,7 +11,7 @@ export default function Location() {
             "https://lh3.googleusercontent.com/p/AF1QipP_p8NZtnDTWzq9gpfsXQsQ9MB1V2MEJhAwUwA7=s1360-w1360-h1020"
           }
         />
-        <div className="font-pismo text-[100px] absolute top-[190px] w-full flex items-center justify-center px-[75px]">
+        <div className="font-pismo text-[100px] text-white text-sh absolute top-[190px] w-full flex items-center justify-center px-[75px]">
           Location
         </div>
       </Banner>

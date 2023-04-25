@@ -14,8 +14,8 @@ export default function Footer() {
           child={<FaInstagram className="h-[20px] w-[20px] text-yellow-950" />}
         />
       </div>
-      <div className="font-300">
-        Unnoficial Fosselmans Ice Cream. Alhambra, CA.
+      <div className="text-white">
+        Unnoficial Website Fosselmans Ice Cream. 2023
       </div>
     </div>
   );
