@@ -1,23 +1,19 @@
 import { useRouter } from "next/router";
 import CustomImage from "./customImage";
+import Link from "next/link";
 export default function Header() {
   const router = useRouter();
   // todo build a header
   return (
     <div className="bg-white px-[75px] h-[100px] w-full z-10 fixed flex items-center justify-between  text-black">
-      <a
-        href=""
-        onClick={() => {
-          router.push("/");
-        }}
-      >
+      <Link href="/">
         <div className="bg-red h-[75px]  w-[120px]">
-          <CustomImage 
-        alt="logo"
-          
-          imgUrl="https://www.fosselmans.com/2015.jpg" />
+          <CustomImage
+            alt="logo"
+            imgUrl="https://www.fosselmans.com/2015.jpg"
+          />
         </div>
-      </a>
+      </Link>
 
       <div className="flex space-x-5">
         <HeaderButton text="Location" route={"/location"} />
@@ -42,13 +38,13 @@ function RedirectHeaderButton({ text, url }: { text: string; url: string }) {
 function HeaderButton({ text, route }: { text: string; route: string }) {
   const router = useRouter();
   return (
-    <a
-      href=""
-      onClick={() => {
-        router.push(route);
-      }}
-    >
-      <div className="hover:cursor-pointer hover:font-bold">{text}</div>
-    </a>
+    <Link href={route}>
+    <div
+
+      className="hover:cursor-pointer hover:font-bold"
+      >
+      {text}
+    </div>
+      </Link>
   );
 }
