@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { FaInstagram, FaFacebookF } from "react-icons/Fa";
+import { FaInstagram, FaFacebookF } from "react-icons/fa";
 export default function Footer() {
   //todo build the footer, this is hardcoded.
   return (
