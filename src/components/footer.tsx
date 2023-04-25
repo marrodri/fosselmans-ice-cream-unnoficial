@@ -3,7 +3,7 @@ import { FaInstagram, FaFacebookF } from "react-icons/fa";
 export default function Footer() {
   //todo build the footer, this is hardcoded.
   return (
-    <div className="bg-black px-[50px] h-[50px] flex items-center justify-between ">
+    <div className="flex h-[50px] items-center justify-between bg-black px-[50px] ">
       <div className="flex space-x-1">
         <FooterButton
           link={"https://www.facebook.com/FosselmansIceCream/"}
@@ -35,7 +35,7 @@ function FooterButton({
       rel="noopener noreferrer"
       target="_blank"
     >
-      <div className="bg-white h-[35px] w-[35px] flex items-center justify-center rounded-3xl">
+      <div className="flex h-[35px] w-[35px] items-center justify-center rounded-3xl bg-white">
         {child}
       </div>
     </a>

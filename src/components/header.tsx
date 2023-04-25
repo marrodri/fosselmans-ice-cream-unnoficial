@@ -5,7 +5,7 @@ export default function Header() {
   const router = useRouter();
   // todo build a header
   return (
-    <div className="bg-white px-[75px] h-[100px] w-full z-10 fixed flex items-center justify-between  text-black">
+    <div className="fixed z-10 flex h-[100px] w-full items-center justify-between bg-white px-[75px]  text-black">
       <Link href="/">
         <div className="bg-red h-[75px]  w-[120px]">
           <CustomImage
@@ -39,12 +39,7 @@ function HeaderButton({ text, route }: { text: string; route: string }) {
   const router = useRouter();
   return (
     <Link href={route}>
-    <div
-
-      className="hover:cursor-pointer hover:font-bold"
-      >
-      {text}
-    </div>
-      </Link>
+      <div className="hover:cursor-pointer hover:font-bold">{text}</div>
+    </Link>
   );
 }

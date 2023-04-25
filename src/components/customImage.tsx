@@ -14,7 +14,7 @@ export default function CustomImage({
   alt: string;
 }) {
   return (
-    <div className={`h-full w-full   relative  ${zIndex} ${classes}`}>
+    <div className={`relative h-full   w-full  ${zIndex} ${classes}`}>
       <Image
         layout="fill"
         loading="lazy"

@@ -9,9 +9,8 @@ export default function FoodItem({
 }) {
   return (
     <div className="">
-      <div className="w-[320px] h-[200px] bg-gray-500">
-
-        <CustomImage alt="food item" imgUrl={imgUrl}/>
+      <div className="h-[200px] w-[320px] bg-gray-500">
+        <CustomImage alt="food item" imgUrl={imgUrl} />
       </div>
       <div className="flex justify-center">{name}</div>
     </div>

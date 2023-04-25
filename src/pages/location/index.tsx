@@ -12,11 +12,11 @@ export default function Location() {
             "https://lh3.googleusercontent.com/p/AF1QipP_p8NZtnDTWzq9gpfsXQsQ9MB1V2MEJhAwUwA7=s1360-w1360-h1020"
           }
         />
-        <div className="font-pismo text-[100px] text-white text-sh absolute top-[190px] w-full flex items-center justify-center px-[75px]">
+        <div className="text-sh absolute top-[190px] flex w-full items-center justify-center px-[75px] font-pismo text-[100px] text-white">
           Location
         </div>
       </Banner>
-      <div className="h-[500px] text-black bg-white pt-[25px]  justify-center flex space-x-5">
+      <div className="flex h-[500px] justify-center space-x-5  bg-white pt-[25px] text-black">
         <div>
           <div className="text-[50px] font-bold">Alhambra, CA</div>
           <div className="text-[20px]">1824 W Main St, Alhambra, CA 91801</div>

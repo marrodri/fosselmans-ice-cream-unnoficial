@@ -14,8 +14,8 @@ export default function Landing() {
             "https://lh3.googleusercontent.com/p/AF1QipNt3izAj_N3QXWs_cZChGjsOmhoqPr1Tp_s7_1n=s1360-w1360-h1020"
           }
         />
-        <div className="font-pismo  text-[100px] absolute top-[300px]  px-[75px]">
-          <p className="pr-[250px] leading-[70px] text-sh transition-all  hover:pointer">
+        <div className="absolute  top-[300px] px-[75px] font-pismo  text-[100px]">
+          <p className="text-sh hover:pointer pr-[250px] leading-[70px]  transition-all">
             celebrating 100 years of serving ice cream
           </p>
         </div>
@@ -32,7 +32,7 @@ export default function Landing() {
               preservatives are used in the development of our products
             </div>
           </div>
-          <div className="w-[600px] bg-gray-100 h-[450px]">
+          <div className="h-[450px] w-[600px] bg-gray-100">
             <CustomImage
               alt="fosselman old picture"
               imgUrl={
@@ -45,13 +45,13 @@ export default function Landing() {
 
       {/* Checkpoint, finish the previous part first. */}
       <Banner height={"h-auto w-auto py-[15px]"}>
-        <div className="px-[80px] flex flex-col justify-center  items-start space-x-3">
+        <div className="flex flex-col items-start justify-center  space-x-3 px-[80px]">
           <div>
-            <div className="text-black font-freestyle-script text-[48px]">
+            <div className="font-freestyle-script text-[48px] text-black">
               Our Poular items
             </div>
           </div>
-          <div className="w-full flex   space-x-[10px] justify-center  text-black text-[20px]">
+          <div className="flex w-full   justify-center space-x-[10px]  text-[20px] text-black">
             <FoodItem
               name={"Ice Cream"}
               imgUrl={
@@ -91,7 +91,7 @@ export default function Landing() {
         <div className="absolute  top-[1565px] w-full px-[75px]">
           <div className="font-freestyle-script text-[62px] ">Recognitions</div>
 
-          <div className=" w-full flex space-x-20 justify-center">
+          <div className=" flex w-full justify-center space-x-20">
             <a
               href="https://www.tripadvisor.com/Restaurant_Review-g29078-d344276-Reviews-Fosselman_s-Alhambra_California.html"
               rel="noopener noreferrer"
@@ -105,7 +105,7 @@ export default function Landing() {
                 />
               </div>
             </a>
-            <div className=" h-[400px] w-[400px] hover:translate-y-[-20px] transition-all">
+            <div className=" h-[400px] w-[400px] transition-all hover:translate-y-[-20px]">
               <a
                 href="https://theculturetrip.com/north-america/usa/california/articles/the-10-best-restaurants-in-alhambra-ca-top-local-eats/?utm_source=emails&utm_medium=featured&utm_campaign=160115californiafood"
                 rel="noopener noreferrer"
