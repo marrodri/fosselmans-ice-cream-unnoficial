@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       pismo: ["PismoClambakeNFW01-Regular", "regular"],
+      "freestyle-script": ["Freestyle\\ Script", "sans-serif"],
     },
 
     extend: {
