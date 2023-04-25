@@ -9,8 +9,6 @@ export default function CustomImage({
   opacity?: string;
   imgUrl: string;
 }) {
-  // TODO bring a div component that wraps the Image/Next component
-  //for easy reworking.
   return (
     <div className={`h-full w-full  relative ${zIndex}`}>
       <Image

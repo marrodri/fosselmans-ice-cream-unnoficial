@@ -5,7 +5,7 @@ export default function Layout({ children }: { children: JSX.Element }) {
   return (
     <div>
       <Header />
-      <div className="pt-[110px] ">{children}</div>
+      <div className="pt-[100px]">{children}</div>
       <Footer />
     </div>
   );

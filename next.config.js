@@ -4,7 +4,7 @@ const nextConfig = {
 
   images: {
     minimumCacheTTL: 180,
-    domains: ["lh3.googleusercontent.com", "fosselmans.com"],
+    domains: ["lh3.googleusercontent.com", "www.fosselmans.com"],
     formats: ["image/webp"],
   },
 };
