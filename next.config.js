@@ -9,6 +9,7 @@ const nextConfig = {
       "www.fosselmans.com",
       "d1ralsognjng37.cloudfront.net",
       "drive.google.com",
+      "scpr.brightspotcdn.com"
     ],
     formats: ["image/webp"],
   },

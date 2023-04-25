@@ -36,7 +36,7 @@ export default function Landing() {
             <CustomImage
               alt="fosselman old picture"
               imgUrl={
-                "https://drive.google.com/uc?export=view&id=1jCQq2HahZK9ha2nBEl4rMi5xxvRf9Eut"
+                "https://scpr.brightspotcdn.com/dims4/default/5ea0a95/2147483647/strip/true/crop/730x565+0+0/resize/730x565!/quality/90/?url=http%3A%2F%2Fscpr-brightspot.s3.amazonaws.com%2Flegacy%2Fi%2F2bf13c0fef07d3110c2aa44b6f441e11%2F5d6581a2c92b3500089d02c5-eight.jpg"
               }
             />
           </div>
