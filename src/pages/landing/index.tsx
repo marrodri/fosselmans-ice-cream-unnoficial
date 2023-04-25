@@ -1,5 +1,6 @@
 import Banner from "@/components/banner";
 import CustomImage from "@/components/customImage";
+import FoodItem from "./components/foodItem";
 
 export default function Landing() {
   //todo build the landing page.
@@ -30,30 +31,32 @@ export default function Landing() {
               preservatives are used in the development of our products
             </div>
           </div>
-          <div className="w-[600px] bg-red-400 h-[450px]">image</div>
+          <div className="w-[600px] bg-gray-100 h-[450px]">
+            <CustomImage
+              imgUrl={
+                "https://drive.google.com/uc?export=view&id=1jCQq2HahZK9ha2nBEl4rMi5xxvRf9Eut"
+              }
+            />
+          </div>
         </div>
       </Banner>
 
       {/* Checkpoint, finish the previous part first. */}
       <Banner height={"h-[600px] w-auto"}>
-        <div className="flex justify-center space-x-4">
+        <div className="px-[80px] flex flex-col justify-center  items-start space-x-4">
           <div>
-            Our poular items
+            <div className="font-freestyle-script text-[48px]">
+              Our Poular items
+            </div>
             <div>description about our items</div>
           </div>
-          <div className="w-[500px] bg-blue-300">
-            <div className="grid grid-cols-2 grid-rows-2 gap-x-[10px] gap-y-[10px]">
-              <div className="w-[250px] h-[200px] bg-green-500">Ice Cream</div>
-              <div className="w-[250px] h-[200px] bg-green-500">
-                Banana Splits
-              </div>
-              <div className="w-[250px] h-[200px] bg-green-500">
-                Ice Cream Sandwiches
-              </div>
-              <div className="w-[250px] h-[200px] bg-green-500">
-                Signature Cakes
-              </div>
-            </div>
+          <div className="w-full flex   space-x-[10px] justify-center bg-blue-300">
+            {/* <div className=" "> */}
+              <FoodItem name={"Ice Cream"} imgUrl={""} />
+              <FoodItem name={"Banana Splits"} imgUrl={""} />
+              <FoodItem name={"Ice Cream Sandwiches"} imgUrl={""} />
+              <FoodItem name={"Signature Cakes"} imgUrl={""} />
+            {/* </div> */}
           </div>
         </div>
       </Banner>
