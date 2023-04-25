@@ -12,7 +12,10 @@ export default function Header() {
         }}
       >
         <div className="bg-red h-[75px]  w-[120px]">
-          <CustomImage imgUrl="https://www.fosselmans.com/2015.jpg" />
+          <CustomImage 
+        alt="logo"
+          
+          imgUrl="https://www.fosselmans.com/2015.jpg" />
         </div>
       </a>
 

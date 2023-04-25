@@ -5,11 +5,13 @@ export default function CustomImage({
   opacity = "opacity-0",
   classes = "",
   imgUrl,
+  alt,
 }: {
   zIndex?: string;
   opacity?: string;
   classes?: string;
   imgUrl: string;
+  alt: string;
 }) {
   return (
     <div className={`h-full w-full   relative  ${zIndex} ${classes}`}>
@@ -19,8 +21,7 @@ export default function CustomImage({
         objectFit="cover"
         src={imgUrl}
         className={classes}
-        // alt={"background image"}
-
+        alt={alt}
       />
       <div className={`absolute inset-0 ${opacity} bg-black`} />
     </div>

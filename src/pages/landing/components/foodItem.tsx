@@ -11,7 +11,7 @@ export default function FoodItem({
     <div className="">
       <div className="w-[320px] h-[200px] bg-gray-500">
 
-        <CustomImage imgUrl={imgUrl}/>
+        <CustomImage alt="food item" imgUrl={imgUrl}/>
       </div>
       <div className="flex justify-center">{name}</div>
     </div>

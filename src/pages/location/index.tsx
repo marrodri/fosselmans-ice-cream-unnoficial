@@ -6,6 +6,7 @@ export default function Location() {
     <div>
       <Banner height={"h-[350px] w-auto"}>
         <CustomImage
+          alt="fosselman building inside"
           opacity="opacity-25"
           imgUrl={
             "https://lh3.googleusercontent.com/p/AF1QipP_p8NZtnDTWzq9gpfsXQsQ9MB1V2MEJhAwUwA7=s1360-w1360-h1020"
@@ -47,6 +48,7 @@ export default function Location() {
         >
           <div className="h-[350px] w-[500px] bg-gray-100 shadow-xl">
             <CustomImage
+              alt="google map location"
               imgUrl={
                 "https://drive.google.com/uc?export=view&id=1Zg-qXqFL7xgry8LD-Hbb9cwXCrCyyqZO"
               }

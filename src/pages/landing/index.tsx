@@ -8,6 +8,7 @@ export default function Landing() {
     <div className="text-white">
       <Banner height={"h-[600px] w-auto"}>
         <CustomImage
+          alt="fosselman front building"
           opacity="opacity-50"
           imgUrl={
             "https://lh3.googleusercontent.com/p/AF1QipNt3izAj_N3QXWs_cZChGjsOmhoqPr1Tp_s7_1n=s1360-w1360-h1020"
@@ -33,6 +34,7 @@ export default function Landing() {
           </div>
           <div className="w-[600px] bg-gray-100 h-[450px]">
             <CustomImage
+              alt="fosselman old picture"
               imgUrl={
                 "https://drive.google.com/uc?export=view&id=1jCQq2HahZK9ha2nBEl4rMi5xxvRf9Eut"
               }
@@ -79,6 +81,7 @@ export default function Landing() {
       </Banner>
       <Banner height={"h-[600px] "}>
         <CustomImage
+          alt="fosselman wall image"
           classes="black-and-white"
           opacity="opacity-80"
           imgUrl={
@@ -96,6 +99,7 @@ export default function Landing() {
             >
               <div className=" h-[400px] w-[400px] rounded-3xl transition-all hover:translate-y-[-20px]">
                 <CustomImage
+                  alt="tripadvisor image"
                   classes="rounded-3xl"
                   imgUrl={"https://www.fosselmans.com/images/trip.jpg"}
                 />
@@ -108,6 +112,7 @@ export default function Landing() {
                 target="_blank"
               >
                 <CustomImage
+                  alt="culture trip image"
                   imgUrl={"https://www.fosselmans.com/images/nueva.png"}
                 />
               </a>
